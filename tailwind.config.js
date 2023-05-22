@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-        'Noto_sans':'Noto Sans, sans-serif'
+        'Noto_sans':'Noto Sans, sans-serif',
+        'lato':'Lato, sans-serif'
       }
     },
   },

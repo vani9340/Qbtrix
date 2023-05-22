@@ -41,23 +41,28 @@ min-height:52px;}
 
 <!-- Result Skip Results Iframe
 EDIT ON -->
-<div class="parent text-white ">
-  <div class="btn-gradient-2 max-w-[1126px]  min-h-[197px] ">  <div>
-    <h1>
+<div class='flex justify-center'>
+<div class="parent text-white max-w-[1126px] min-h-[197px] ">
+  <div class="flex items-center justify-between px-[40px] btn-gradient-2 max-w-[1126px]  min-h-[197px]  ">  
+    <div class='max-w-[539px] min-h-[56px]'>
+    <h1 class='font-lato font-[900] text-[2.5rem] leading-[3rem]'>
         Start Project With Qbtrix
     </h1>
-    <p>
+    <p class='font-Noto_sans font-normal text-[1rem] leading-[1.75rem] mt-[20px]'>
         Lörem ipsum bira homomäktiga såsom jynde eurol ijesa. Kontos fiska astrovision. Öfäsm neligt medeltologi: medan vatäning....
     </p>
 </div>
-<button class='btn'>Start a project</button></div>
-</div>
+<div>
+  <button class='btn'>Start a project</button></div>
 
+</div>
+</div>
+</div>
 <!-- main footer box -->
-<div class='bg-[#292929] min-h-[509px] w-screen'>
-    <img src={logo} alt="logo"/>
+<div class='bg-[#292929] min-h-[509px] w-screen flex flex-col items-center justify-center'>
+    <div><img src={logo} alt="logo"/></div>
     <!-- logo -->
-    <div class='flex'>
+    <div class='flex mt-[44.38px] gap-[20px]'>
         <a target = "blank" href="https://www.instagram.com"><img src={insta} alt='img'/></a>
         <a target = "blank" href="https://web.whatsapp.com/"><img src={whatsapp} alt='img'/></a>
         <a target = "blank" href="https://www.youtube.com"><img src={utube} alt='img'/></a>
@@ -65,12 +70,12 @@ EDIT ON -->
         <a target = "blank" href="https://twitter.com"><img src={twitter} alt='img'/></a>
 
     </div>
-    <p class='text-[#AEAEAE]'>Redefining Software Development: Empowering Organizations with Innovative Strategies, Agile Processes, and Cutting-Edge Technologies for Efficient, High-Impact Outcomes</p>
-    <div class='btn'>
+    <p class='text-[#AEAEAE] mt-[36.39px] font-Noto_sans font-normal text-[1rem] leading-[1.75rem] max-w-[754px] min-h-[56px] text-center'>Redefining Software Development: Empowering Organizations with Innovative Strategies, Agile Processes, and Cutting-Edge Technologies for Efficient, High-Impact Outcomes</p>
+    <div class='btn mt-[32px]'>
        <h1>Let's talk! </h1>
           <img src={mail} alt='mail'/>
         </div>
-      <h1 class='text-white'>© 2023 Qbtrix®. All rights reserved.</h1>
+      <h1 class='text-white mt-[48px]'>© 2023 Qbtrix®. All rights reserved.</h1>
 </div>
 
 

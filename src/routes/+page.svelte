@@ -14,7 +14,7 @@
   import Cmp4 from '$lib/Cmp4.svelte'
   import Cmp5 from '$lib/Cmp5.svelte'
   import Cmp6 from '$lib/Cmp6.svelte'
-  import Cmp7 from '$lib/Cmp7.svelte'
+  import Footer from '$lib/Footer.svelte'
   </script>
 
 
@@ -48,7 +48,7 @@
 
 
 <!-- footer -->
-<Cmp7/>
-<!-- <Footer/> -->
+
+<Footer/>
 
 
